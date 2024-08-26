@@ -56,4 +56,9 @@ body {
   }
   .logo {
     font-weight: bold;
-  } 
+  }
+  
+  .list-item {
+   opacity: 1;
+   transition: all 1s;
+  }

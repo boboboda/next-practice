@@ -1,11 +1,6 @@
-'use client'
-
-import { useState } from "react"
 
 export default function Write() {
-    
-    let [userInput, setUserInput] = useState("")
-    
+        
     
     return(
         <div className="p-20">

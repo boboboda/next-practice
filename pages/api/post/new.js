@@ -15,7 +15,7 @@ export default async function handler(요청, 응답) {
         try {
             const db = (await connectDB).db("forum");
             await db.collection("post").insertOne({ title, content });
-            return 응답.redirect(200, '/list');
+            return 응답.status(200).redirect('/list');
 
         } catch (error) {
             console.error('데이터베이스 오류:', error);
