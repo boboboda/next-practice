@@ -1,6 +1,5 @@
 
-export default function Write() {
-        
+export default function Write() {  
     
     return(
         <div className="p-20">
