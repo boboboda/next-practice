@@ -1,7 +1,8 @@
 import { MongoClient } from "mongodb";
 import { global } from "styled-jsx/css";
-const url = 'mongodb+srv://kju9038:20180520@atlascluster.jidcuz4.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster'
-const options = { useNewUrlParser: true };
+// const url = 'mongodb+srv://kju9038:20180520@atlascluster.jidcuz4.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster'
+const url = 'mongodb://kju9038:20180520@buyoungsil.tplinkdns.com:27017'
+const options = { useNewUrlParser: true, useUnifiedTopology: true };
 let connectDB
 
 

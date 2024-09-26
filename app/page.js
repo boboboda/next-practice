@@ -12,9 +12,9 @@ export default async function Home() {
   
 
 
-  await fetch('/URL', {cache : 'force-cache'})
+  // await fetch('/URL', {cache : 'force-cache'})
 
-  await fetch('/URL', {cache : 'no-store'})
+  // await fetch('/URL', {cache : 'no-store'})
 
   return(
     <div>
